@@ -1,0 +1,33 @@
+Matt Ely (811-653-312)
+Collins Rakowski (811-261-111)
+
+    To compile: type 'make'
+
+    To run: type make run or ./shell
+
+    To clean: type 'make clean'
+
+    Group Member Contributions (Matt/Collins) in estimated percent:
+
+    Javadoc comments(60/40)
+    Testing and debugging (40/60)
+    Class layout and planning (50/50)
+    Prompt(70/30)
+    Change Directory (30/70)
+    Launch processes (50/50)
+    Redirect I/O (60/40)
+    User input parsing (40/60)
+    Verifying fork/exec/pid used safely (50/50)
+
+    Detail Major Contributions:
+    Matt:
+    In line documentation using Javadoc comments, debugging issues when trying
+    to appropriately display the prompt or parsing for >,<,>>, planning how to parse user
+    input, verifying chdir went to correct directory, forking safely and checking with pids,
+    writing appropriate opens/dup2s with each option, testing difficult test cases to find errors.
+
+    Collins:
+    Verifying inline documentation was understandable, debugging input parsing issues and verifying
+    no memory leaks, planning how exec should be called and proper error checking, fixing issues with
+    stdout not being written into files, writing most of method that parses user input, ensuring no
+    fork bombs by proper pid checking, testing numerous, general test cases.
